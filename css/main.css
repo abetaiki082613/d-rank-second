@@ -55,7 +55,7 @@ button {
   right: -100%;
   width: 60vw;
   height: 100vh;
-  background: #e9c3cbea;
+  background: #f6ead692;
   font-size: 16px;
   box-sizing: border-box;
   z-index: 2;
@@ -175,6 +175,7 @@ button {
     justify-content: end;
     flex-direction: inherit;
     text-align: left;
+    padding-top: 0px;
   }
 
   .nav_gNav-menu li {
@@ -257,7 +258,7 @@ button {
   /* pc44 */
   height: 100%;
   background-image: url(../img/img_nearby.png);
-  background-position: center;
+  background-position: 50% 0%;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -331,180 +332,121 @@ button {
 
 #area_section_dress {
   width: 100%;
-  height: 465vw;
+  /* pc height:1209px; */
   background-color: #43497c;
   color: #ffffff;
 }
 
 #area_section_dress > .container {
-  width: 95%;
-  height: 460vw;
-  /* pc width:65%; */
+  width: 100%;
+  text-align: center;
+  /* pc width: 64%; */
 }
 
 .area_title_dress {
   width: 100%;
-  height: 31.25vw;
-  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-}
-.area_title_dress p {
-  font-size: 0.7rem;
+  height: 120px;
+  padding: 20px 0px;
 }
 
 .title_dress {
   font-size: 2.5rem;
 }
 
+.area_title_dress p {
+  font-size: 0.7rem;
+}
 .area_items_dress_wrap {
-  width: 100%;
-  height: 428vw;
   display: flex;
   flex-wrap: wrap;
 }
 
+.area_items_dress_wrap p {
+  margin: 8px 0 20px 0;
+}
 .item_wedding-dress_of_dress {
-  width: 100%;
-  height: 78vw;
-  text-align: center;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .img_wedding-dress {
   width: 100%;
-  height: 62vw;
-  background-image: url(../img/img_wedding.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  margin-bottom: 14px;
+  object-fit: cover;
 }
 
 .item_dress {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.img_item_dress {
   width: 100%;
-  text-align: center;
+  object-fit: cover;
 }
 
-.item_dress p {
-  margin-top: 14px;
-}
-
-.color-dress {
-  height: 159vw;
-}
-
-.img_color-dress {
-  width: 100%;
-  height: 141vw;
-  background-image: url(../img/img_color-dress.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-
-.tuxedo {
-  height: 180vw;
-}
-
-.img_tuxedo {
-  width: 100%;
-  height: 150vw;
-  background-image: url(../img/img_tuxedo.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-
-/* --------dress-pc------------ */
-
-@media screen and (min-width: 700px) {
+/* ---dress-sp------ */
+@media screen and (min-width: 650px) {
   #area_section_dress {
-    height: 1209px;
+    width: 100%;
+    background-color: #43497c;
+    color: #ffffff;
+    padding-bottom: 80px;
   }
 
   #area_section_dress > .container {
-    width: 80%;
-    height: 1160px;
+    text-align: center;
+    width: 64%;
   }
 
   .area_title_dress {
     width: 100%;
-    height: 160px;
-    text-align: center;
-  }
-
-  .area_title_dress p {
-    font-size: 0.8125rem;
+    height: 120px;
+    padding: 20px 0px;
   }
 
   .title_dress {
     font-size: 4rem;
   }
 
+  .area_title_dress p {
+    font-size: 1rem;
+  }
   .area_items_dress_wrap {
-    width: 100%;
-    height: 1000px;
+    display: flex;
+    flex-wrap: wrap;
   }
 
+  .area_items_dress_wrap p {
+    margin: 8px 0 20px 0;
+  }
   .item_wedding-dress_of_dress {
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
-    height: 450px;
+    margin-bottom: 30px;
   }
 
   .img_wedding-dress {
     width: 100%;
-    height: 420px;
-    background-size: cover;
+    object-fit: cover;
   }
 
   .item_dress {
-    width: 38.3%;
-    text-align: center;
+    width: 37.5%;
+    margin: 0 auto;
   }
 
-  .item_dress p {
-    margin-top: 5px;
-  }
-
-  .color-dress {
-    height: 470px;
-    margin-right: 11%;
-  }
-
-  .img_color-dress {
+  .img_item_dress {
     width: 100%;
-    height: 445px;
-    background-size: cover;
-  }
-
-  .tuxedo {
-    height: 470px;
-    margin-left: 11%;
-  }
-
-  .img_tuxedo {
-    width: 100%;
-    height: 445px;
-    background-size: cover;
+    object-fit: cover;
   }
 }
-
-@media screen and (min-width: 1000px) {
-  #area_section_dress > .container {
-    width: 70%;
-  }
-}
-
 /* ----Area--------- */
 
 #area_section_Area {
   width: 100%;
-  height: 1250px;
+  height: 1300px;
   background-image: url(../img/img_section_area_background.png);
-  background-position: center;
+  background-position: 50% 0%;
   background-repeat: no-repeat;
   background-size: cover;
   margin: 140px 0;
@@ -516,7 +458,7 @@ button {
 
 .area-title_Area {
   width: 100%;
-  height: 150px;
+  height: 200px;
   text-align: center;
   padding-top: 30px;
 }
@@ -561,16 +503,6 @@ button {
   margin-left: 2%;
   font-size: 1.125rem;
 }
-@media screen and (min-width: 450px) {
-  .area_flex_item_Area {
-    width: 70%;
-  }
-}
-@media screen and (min-width: 530px) {
-  .area_flex_item_Area {
-    width: 85%;
-  }
-}
 
 @media screen and (min-width: 850px) {
   #area_section_Area {
@@ -611,7 +543,7 @@ button {
     width: 100%;
     height: 272px;
     background-position-x: center;
-    background-position-y: top;
+    background-position-y: 0%;
     background-size: cover;
   }
 }
@@ -875,11 +807,10 @@ button {
 @media screen and (min-width: 700px) {
   #area_section_press {
     width: 100%;
-    height: 580px;
+    margin-bottom: 50px;
   }
   #area_section_press > .container {
     width: 98%;
-    height: 100%;
   }
   .area_title_press {
     width: 100%;
@@ -898,14 +829,12 @@ button {
   }
   .area_item_press {
     width: calc(calc(100% - 50px) / 5);
-    height: 410px;
     text-align: center;
     margin: 0px 5px;
   }
 
   .img_press {
     width: 100%;
-    height: 293px;
     object-fit: cover;
     object-position: 50% 0%;
   }
