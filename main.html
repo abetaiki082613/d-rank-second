@@ -4,10 +4,260 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>d-rank-second</title>
     <link rel="stylesheet" href="./css/reset.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="stylesheet" href="./css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/script.js"></script>
+    <script src="./js/ofi.min.js"></script>
   </head>
-  <body></body>
+  <body>
+    <header class="header_area">
+      <div class="container">
+        <div id="area_logo_header"></div>
+        <div class="area_nav_header">
+          <!------sp時には非表示-------->
+          <p class="sentence_logo">
+            <a>ウェディングドレスレンタルのグレイス 東京</a>
+          </p>
+          <nav id="area_gNav">
+            <ul class="nav_gNav-menu">
+              <li><a href="#">ウエディングドレス</a></li>
+              <li><a href="#">カラードレス</a></li>
+              <li><a href="#">タキシード</a></li>
+            </ul>
+          </nav>
+          <!--------------------------->
+          <div id="btn_gNav_header">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section id="area_section_main-visual">
+        <h1 class="sentence_main-visual">Get Old with Me</h1>
+      </section>
+      <section id="area_section_nearby">
+        <div class="container">
+          <div class="area_title_nearby">
+            <h1 class="title_nearby">The best is nearby</h1>
+            <p>あなただけのウェディングプランをご案内</p>
+          </div>
+          <div class="container_flex_nearby">
+            <div class="img_nearby"></div>
+
+            <div class="area_article_nearby">
+              <p class="subtitle_nearby">理想のウェディングを保証します</p>
+              <p>
+                新作ドレス、王道ドレスやタキシードを500点以上取り揃えております。豊富なデザインや価格設定や多彩な特典でサポートします。
+              </p>
+              <button class="view-dress">
+                <a href="#">ドレスを見る</a>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="area_section_dress">
+        <div class="container">
+          <div class="area_title_dress">
+            <h1 class="title_dress">Dress</h1>
+            <p>グレイス東京のウェディングドレスは、500着以上の品揃え。</p>
+          </div>
+          <div class="area_items_dress_wrap">
+            <div class="item_wedding-dress_of_dress">
+              <img
+                src="./img/img_wedding.png"
+                class="img_wedding-dress"
+                alt=""
+              />
+              <p>ウエディングドレス</p>
+            </div>
+            <div class="item_dress">
+              <img
+                src="./img/img_color-dress.png"
+                class="img_item_dress"
+                alt=""
+              />
+              <p>カラードレス</p>
+            </div>
+            <div class="item_dress">
+              <img src="./img/img_tuxedo.png" class="img_item_dress" alt="" />
+              <p>タキシード</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="area_section_Area">
+        <div class="container">
+          <div class="area-title_Area">
+            <h1 class="title_Area">Area</h1>
+            <p>ハネムーン先のご紹介</p>
+          </div>
+          <div class="area_flex-items_Area">
+            <div class="area_flex_item_Area">
+              <div class="area_item_img img_okinawa"></div>
+              <p class="trip">沖縄旅行</p>
+              <p class="trip_sentence">沖縄ウェディング総合満足度No.1</p>
+            </div>
+            <div class="area_flex_item_Area">
+              <div class="area_item_img img_hawaii"></div>
+              <p class="trip">ハワイ旅行</p>
+              <p class="trip_sentence">絶景の海・大自然の大道旅行先</p>
+            </div>
+            <div class="area_flex_item_Area">
+              <div class="area_item_img img_guam"></div>
+              <p class="trip">グアム旅行</p>
+              <p class="trip_sentence">
+                3時間半で常夏の楽園、コスパ最高な旅行先
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="area_section_access">
+        <div class="container">
+          <div class="area_title_access-sp">
+            <h1 class="title_access-sp">Access</h1>
+          </div>
+          <img src="./img/img_left_access.png" class="area_img_left_access" />
+          <div class="area_article_access">
+            <h1 class="title_access">Access</h1>
+            <p>東京都</p>
+            <p class="tel_fax">Tel:03-0000-0000 / FAX：03-0000-0000</p>
+            <p class="time_shop_open">営業時間: 10:00～19:00 (水曜日定休)</p>
+            <p>東急東横線「学芸大学」</p>
+          </div>
+          <img src="./img/img_right_access.png" class="area_img_right_access" />
+        </div>
+      </section>
+      <section id="area_section_community">
+        <div class="container">
+          <div class="area_title_community-sp">
+            <h1 class="title_community">Bridal community</h1>
+            <p>コミュニティ紹介</p>
+          </div>
+          <div class="area_flex_community">
+            <img src="./img/img_community.png" class="area_img_community-sp" />
+            <div class="area_article_community">
+              <div class="area_title_community">
+                <h1 class="title_community">Bridal community</h1>
+                <p>コミュニティ紹介</p>
+              </div>
+              <p class="high_quality">ハイクオリティがここに。</p>
+              <p class="sentence_community">
+                ブライダル衣裳のトータルサポート、レンタルです。
+              </p>
+              <p class="sentence_community">
+                有名ブランドドレス、人気ブランドの新作などドレス500着をご用意。
+              </p>
+              <p class="sentence_community-bottom">
+                好きなだけドレス制限なく試着して頂けます。
+              </p>
+              <button class="read-more">
+                <a href="#">READ MORE</a>
+              </button>
+            </div>
+          </div>
+          <img src="./img/img_community.png" class="area_img_community" />
+        </div>
+      </section>
+
+      <section id="area_section_press">
+        <div class="container">
+          <div class="area_title_press">
+            <h1 class="title_press">Press</h1>
+            <p>ゼクシィとウェディングブックに掲載しております。</p>
+          </div>
+          <div class="area_items_press_flex-wrap">
+            <div class="area_item_press">
+              <img src="./img/img_white_dress_left.png" class="img_press" />
+              <p>「ブライダルHIROが掲載されました」</p>
+            </div>
+            <div class="area_item_press">
+              <img src="./img/img_dress_red.png" class="img_press" />
+              <p>
+                「WeddingBOOKのWEBサイトに 【KIYOKO
+                HATA】おすすめドレスが紹介されました！」
+              </p>
+            </div>
+            <div class="area_item_press">
+              <img src="./img/img_yellow_dress.png" class="img_press" />
+              <p>
+                「オータムスペシャルキャンペーン開催中です！（11月末まで）」
+              </p>
+            </div>
+            <div class="area_item_press">
+              <img src="./img/img_white-lace.png" class="img_press" />
+              <p>「フォトウェディングキャンペーン実施」</p>
+            </div>
+            <div class="area_item_press">
+              <img src="./img/img_white_dress_window.png" class="img_press" />
+              <p>「Wedding Park Dress 花嫁様事例満載♡」</p>
+            </div>
+          </div>
+          <div class="area_button_read-more">
+            <button class="read-more">
+              <a href="#">READ MORE</a>
+            </button>
+          </div>
+        </div>
+      </section>
+      <section id="area_section_question-reservation">
+        <div class="container">
+          <div class="area_button_question-reservation">
+            <button><a href="#">お問い合わせ</a></button>
+            <button><a href="#">ご来店予約</a></button>
+          </div>
+          <p>いつでも何着でもご試着可能です。</p>
+          <p>お気軽にお問い合わせください。</p>
+        </div>
+      </section>
+    </main>
+    <footer class="area_footer">
+      <div class="container">
+        <div class="area_logo_about_footer">
+          <img src="./img/logo_img.png" alt="" class="img_logo_footer" />
+          <div class="area_address_footer">
+            <p>ウェディングドレスレンタルのグレイス 東京</p>
+            <p>東京都目黒駅</p>
+            <p class="tel_fax">TEL：03-0000-0000</p>
+            <p class="time_shop_open">
+              営業時間: 10:00～19:00 <br />
+              (水曜日定休)
+            </p>
+          </div>
+        </div>
+        <div class="area_nav_footer">
+          <nav class="area_nav_footer_child">
+            <ul>
+              <li>ウエディングドレス</li>
+              <li>カラードレス</li>
+              <li>タキシード</li>
+              <li>コミュニティ紹介</li>
+            </ul>
+          </nav>
+          <nav class="area_nav_footer_child">
+            <ul>
+              <li>採用情報</li>
+              <li>プライバシーポリシー</li>
+              <li>来店予約フォーム</li>
+              <li>お問い合わせ</li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <div class="area_copy-right_footer">
+        <p>Copyright ©WEDDING DRESS TOKYO.</p>
+      </div>
+    </footer>
+  </body>
 </html>
